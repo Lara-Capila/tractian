@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 
 import { Select } from 'antd';
 
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 
 import AssetsContext from '../context/AssetsContext';
 import { getAssetById } from '../services/assetsRequest';

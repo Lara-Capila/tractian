@@ -1,4 +1,3 @@
-/* eslint-disable no-nested-ternary */
 import React, { useContext } from 'react';
 
 import { Card, Skeleton } from 'antd';
@@ -8,7 +7,7 @@ import {
   ToolTwoTone,
   HeartTwoTone,
 } from '@ant-design/icons';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import AssetsContext from '../context/AssetsContext';
 import { getAssetById } from '../services/assetsRequest';
 

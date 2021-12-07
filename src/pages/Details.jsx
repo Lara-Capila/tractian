@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 
 import { Button, Skeleton } from 'antd';
 
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import AssetDetails from '../components/details/AssetDetails';
 import AssetsContext from '../context/AssetsContext';
